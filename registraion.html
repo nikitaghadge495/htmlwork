@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registraion form</title>
+</head>
+
+<body>
+    <table border="5" cellspace="5" cellpadding="5" style="margin-left: auto; margin-right: auto;">
+        <form action="page11.html">
+            <tr>
+                <th colspan="2">Fill your Personal Data</th>
+            </tr>
+            <tr>
+                <th><label for="Fname">First Name</label></th>
+                <td><input type="text" id="fname"></td>
+            </tr>
+            <tr>
+                <th><label for="Lname">Last Name</label></th>
+                <td><input type="text" id="Lname"></td>
+            </tr>
+            <tr>
+                <th><label for="Email">Email</label></th>
+                <td><input type="email"></td>
+            </tr>
+            <tr>
+                <th><label for="Password">Password</label></th>
+                <td><input type="password"></td>
+            </tr>
+            <tr>
+                <th><label for="Country">Scelect the country</label></th>
+                <td><select name="coun" id="Country">
+                    <option value="India">India</option>
+                    <option value="USA">USA</option>
+                    <option value="Dubai">Dubai</option>
+                    <option value="Uk">Uk</option>
+                    <option value="South Korea">South Korea</option>
+                </select></td>
+            </tr>
+            <tr>
+                <th><label for="Gender">choose the Gender</label></th>
+                <td><input type="radio" name="Gender" id="male" value="male">Male
+                    <input type="radio" name="Gender" id="female" value="female">FeMale</td>
+            </tr>
+            <tr>
+                <th><label for="Languages">Select the Languages</label></th>
+                <td>
+                    <input type="checkbox" name="lang" value="Marathi" id="marathi">Marathi
+                    <input type="checkbox" name="lang" value="Hindi" id="Hindi">Hindi
+                    <input type="checkbox" name="lang" value="English" id="English">English
+                    <input type="checkbox" name="lang" value="Gujarati" id="Gujarati">Gujarati
+                    <input type="checkbox" name="lang" value="Bhojpuri" id="Bhojpuri">Bhojpuri
+                </td>
+            </tr>
+            <tr>
+                <th><label for="subject">select the Subject</label></th>
+                <td>
+                    <input type="checkbox" name="sub" value="c" id="c">c
+                    <input type="checkbox" name="sub" value="c++" id="c++">c++
+                    <input type="checkbox" name="sub" value="java" id="java">java
+                    <input type="checkbox" name="sub" value="python" id="python">python
+
+
+                </td>
+            </tr>
+            <tr>
+                <th colspan="2"><button style="background: #f45c5c; border: 2px double black;">Submit</button></th>
+            </tr>
+        </form>
+    </table>
+</body>
+
+</html>
